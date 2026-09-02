@@ -1,5 +1,5 @@
 {% set name = "dramatiq" %}
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 70c9278b0a9b880aeb23b8e09c9d43b1421ac8e807ef18903f6dd059130474a1
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: f9fbbd2feea27b3fa4085446242a24d86f78288b20c78a93f9f0bdbd7d908cd5
 
 build:
   noarch: python
